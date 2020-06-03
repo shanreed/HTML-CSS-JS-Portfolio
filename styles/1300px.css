@@ -9,10 +9,15 @@
     }
     
     .name-heading {
+        margin-top: 12rem;
         font-size: 5.5vw;
     }
     
     .p-headings {
-            margin-top: 16rem;
-        }
+            margin-top: 1rem;
+    }
+
+    .aboutme-text {
+            width: 40%;
+    }
 }

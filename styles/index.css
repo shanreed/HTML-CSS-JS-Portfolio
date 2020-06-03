@@ -51,10 +51,8 @@
 
 .header {
     position: absolute;
-    /* margin: 5rem 3rem; */
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
     justify-content: center;
     align-items: center;    
 }
@@ -63,7 +61,6 @@
     font-family: 'Pacifico', cursive;
     font-size: 13.5vw;
     margin-bottom: 16rem;
-    border: 2px solid red;
 }
 
 
@@ -73,7 +70,6 @@
     font-weight: bolder;
     margin: 5.5rem 0 3rem 0;
     color:#6031CA;
-    border: 2px solid red;
 }
 
 .think {
@@ -131,14 +127,14 @@
   .btn {
    
     text-decoration: none;
-    border: 1px solid rgb(146, 148, 248);
+    border: 1px solid #6031CA;
     position: relative;
     overflow: hidden;
   }
 
   
   .btn:hover {
-    box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+    box-shadow: 1px 1px 25px 10px #6031CA;
   }
   
   .btn:before {
@@ -151,7 +147,7 @@
     background: linear-gradient(
       120deg,
       transparent,
-      rgba(146, 148, 248, 0.4),
+      #6031CA,
       transparent
     );
     transition: all 650ms;
@@ -176,6 +172,18 @@
         align-items: center;
     }
 
+    .footer-sections nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .footer-sections nav a {
+        color: #6031CA;
+        font-weight: bolder;
+    }
+
     .social-media {
         margin-bottom: 1rem;
         display: flex;
@@ -193,6 +201,9 @@
         align-items: center;
         margin: 1.5rem 0;
     }
+
+
+    
 
 
 

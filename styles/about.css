@@ -1,0 +1,27 @@
+.aboutme-content {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.about-area-img {
+    content: url("../img/aboutmeimg.png");
+    /* opacity: 40%; */
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.aboutme-text {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    font-size: 2rem;
+}
