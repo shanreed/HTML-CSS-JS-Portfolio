@@ -1,0 +1,31 @@
+@media(min-width: 700px) {
+    .hero-area-img {
+        width: 60%;
+       
+       
+    }
+    .think {
+        margin-right: 38rem;
+    }
+    .design {
+        margin-right: 30rem;
+    }
+    .create {
+        margin-right: 24rem;
+    }
+}
+
+@media(min-width: 760px) {
+    .header h1 {
+        margin-bottom: 40rem;
+    }
+    .think {
+        margin-right: 42rem;
+    }
+    .design {
+        margin-right: 34rem;
+    }
+    .create {
+        margin-right: 28rem;
+    }
+}

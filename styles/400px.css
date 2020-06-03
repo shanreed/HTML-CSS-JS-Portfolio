@@ -1,0 +1,65 @@
+@media(min-width: 400px) {
+    .contact-header nav {
+    font-size: 1.8rem;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .top-header nav {
+        font-size: 1.2rem;
+        
+    }
+
+    .header h1 {
+        margin-bottom: 19rem;
+    }
+
+    .think {
+        margin-right: 25rem;
+    }
+    .design {
+        margin-right: 21rem;
+    }
+    .create {
+        margin-right: 17rem;
+    }
+    
+    .button-container {
+        margin-top: 6rem;
+    }
+    
+
+}
+
+@media(min-width: 444px) {
+
+    .hero-area-img {
+        width: 80%;
+       
+       
+    }
+    .header h1 {
+        margin-bottom: 21rem;
+    }
+
+    .header p {
+    }
+    
+
+    .think {
+        margin-right: 27rem;
+    }
+    .design {
+        margin-right: 23rem;
+    }
+    .create {
+        margin-right: 19rem;
+    }
+
+    .button-container {
+        margin-top: 12rem;
+    }
+
+}

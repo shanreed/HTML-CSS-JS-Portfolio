@@ -1,0 +1,16 @@
+@media(min-width: 600px) {
+    .hero-area-img {
+        width: 70%;
+       
+       
+    }
+    .header h1 {
+        margin-bottom: 32rem;
+    }
+}
+
+@media(min-width: 668px) {
+    .header h1 {
+        margin-bottom: 36rem;
+    }
+}
