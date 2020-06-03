@@ -1,0 +1,23 @@
+@media(min-width: 900px) {
+    .name-heading {
+        
+        font-size: 5.5vw;
+    }
+
+    .p-headings {
+        margin-top: 18rem;
+        font-size: 3vw;
+    }
+
+}
+
+@media(min-width: 1000px) {
+    .name-heading {
+        font-size: 5.5vw;
+    }
+
+    .p-headings {
+        margin-top: 25rem;
+    }
+}
+

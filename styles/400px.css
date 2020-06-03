@@ -12,18 +12,24 @@
         
     }
 
-    .header h1 {
-        margin-bottom: 19rem;
+    .name-heading {
+        margin-bottom: 18rem;
+    }
+
+    .p-headings {
+        font-size: 4.5vw;
     }
 
     .think {
-        margin-right: 25rem;
+        margin-right: 28rem;
     }
+
     .design {
-        margin-right: 21rem;
+        margin-right: 24rem;
     }
+
     .create {
-        margin-right: 17rem;
+        margin-right: 20rem;
     }
     
     .button-container {
@@ -34,32 +40,20 @@
 }
 
 @media(min-width: 444px) {
-
     .hero-area-img {
         width: 80%;
-       
-       
     }
-    .header h1 {
-        margin-bottom: 21rem;
-    }
-
-    .header p {
-    }
-    
 
     .think {
         margin-right: 27rem;
     }
+
     .design {
         margin-right: 23rem;
     }
+
     .create {
         margin-right: 19rem;
-    }
-
-    .button-container {
-        margin-top: 12rem;
     }
 
 }

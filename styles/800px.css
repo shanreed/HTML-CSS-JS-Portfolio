@@ -2,7 +2,12 @@
     .hero-area-img {
         width: 50%;
     }
-    .header h1 {
-        margin-bottom: 45rem;
+    .name-heading {
+        margin-bottom: 13.5rem;
+    }
+
+    footer {
+        margin-top: 35rem;
     }
 }
+

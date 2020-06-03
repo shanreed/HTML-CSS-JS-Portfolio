@@ -1,22 +1,10 @@
 @media(min-width: 500px) {
-    .header h1 {
-        margin-bottom: 27rem;
-    }
- 
-    .header p {
-        
-    }
-    
     .button-container {
         margin-bottom: 5rem;
     }
 }
 
 @media(min-width: 550px) {
-    .header p {
-        
-    }
-
     .think {
         margin-right: 29rem;
     }

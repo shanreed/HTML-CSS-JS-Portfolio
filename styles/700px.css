@@ -1,9 +1,8 @@
 @media(min-width: 700px) {
     .hero-area-img {
         width: 60%;
-       
-       
     }
+
     .think {
         margin-right: 38rem;
     }
@@ -16,16 +15,13 @@
 }
 
 @media(min-width: 760px) {
-    .header h1 {
-        margin-bottom: 40rem;
-    }
     .think {
-        margin-right: 42rem;
+        margin-right: 39rem;
     }
     .design {
-        margin-right: 34rem;
+        margin-right: 31rem;
     }
     .create {
-        margin-right: 28rem;
+        margin-right: 25rem;
     }
 }

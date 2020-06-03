@@ -44,30 +44,36 @@
     margin: 0 auto;
     width: 100%;
     margin-bottom: 17.5rem;
+    display: flex;
+    justify-content: center;
     
 }
 
 .header {
     position: absolute;
-    margin: 5rem 3rem;
+    /* margin: 5rem 3rem; */
     display: flex;
     flex-direction: column;
+    border: 2px solid red;
     justify-content: center;
     align-items: center;    
 }
 
-.header h1 {
+.name-heading {
     font-family: 'Pacifico', cursive;
     font-size: 13.5vw;
     margin-bottom: 16rem;
+    border: 2px solid red;
 }
 
 
-.header p {
-    font-size: 5.5vw;
+.p-headings {
+    text-align: center;
+    font-size: 5vw;
     font-weight: bolder;
-    margin-bottom: 1rem;
+    margin: 5.5rem 0 3rem 0;
     color:#6031CA;
+    border: 2px solid red;
 }
 
 .think {
@@ -84,49 +90,19 @@
     margin-bottom: 2rem;
 }
 
-.hero-area-img {
-    /* margin: 0px 0px 215px; */
-    content: url("../img/trenyph2.png");
-    width: 100%;
-    margin: 0 auto;
-    height: auto;
-    /* height: 300px; */
+@media(min-width: 360px) {
+    .think {
+        margin-right: 26rem;
+    }
+
+    .design {
+        margin-right: 22rem;
+    }
+
+    .create {
+        margin-right: 18rem;
+    }
 }
-
-/* .projects-section {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.home-project {
-    margin-bottom: 10px;
-    width:40%;
-    background-color: antiquewhite;
-} */
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-color: red; */
-}
-
-.social-media {
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.footer-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1.5rem 0;
-}
-
 
 
 
@@ -138,20 +114,28 @@ footer {
     align-items: center;
     /* height: 10vh; */
   }
+
+  @media(min-width: 366px) {
+    .button-container {
+        margin-top: 5rem;
+      }
+  }
   
   .button-container a {
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: .8rem 3.5rem;
     color: #f4f4f4;
     text-transform: uppercase;
   }
   
   .btn {
+   
     text-decoration: none;
     border: 1px solid rgb(146, 148, 248);
     position: relative;
     overflow: hidden;
   }
+
   
   .btn:hover {
     box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
@@ -177,3 +161,41 @@ footer {
     left: 100%;
   }
   
+
+    .hero-area-img {
+        content: url("../img/trenyph2.png");
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-media {
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-image{
+        border: 1px solid #6031CA;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1.5rem 0;
+    }
+
+
+
+
+
+
