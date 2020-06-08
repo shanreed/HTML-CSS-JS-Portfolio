@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/400px.css">
     <link rel="stylesheet" href="styles/500px.css">
     <link rel="stylesheet" href="styles/600px.css">
@@ -41,52 +42,64 @@
             </nav>
         </header>
         <section class = 'contact'>
-            <div class = 'contact-title'>
-                <h2>Say Hello</h2>
-                <h3>Send me a Message</h3>
+            <div class = 'contact-info'>
+                <div class = 'contact-title'>
+                    <h2>Say Hello</h2>
+                    <h3>Send me a Message</h3>
+                </div>
+                <div class = 'contact-form'>
+                    <form id = 'contact-form' method = 'post' action = 'contact-form-handler.php'>
+                        <input name = 'name' type = 'text' class = 'form-control' placeholder = 'ENTER YOUR NAME' required>
+                        <br>
+                        <input name = 'email' type = 'email' class = 'form-control' placeholder = 'ENTER YOUR EMAIL' required>
+                        <br>
+
+                        <textarea name = 'message' class = 'form-control top' placeholder= 'Type your message here....' row = '4' required>
+
+                        </textarea>
+                        <div class="button-container">
+                            <a href="#" class="btn">Send Message</a>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class = 'contact-form'>
-                <form id = 'contact-form' method = 'post' action = 'contact-form-handler.php'>
-                    <input name = 'name' type = 'text' class = 'form-control' placeholder = 'ENTER YOUR NAME' required>
-                    <br>
-                    <input name = 'email' type = 'email' class = 'form-control' placeholder = 'ENTER YOUR EMAIL' required>
-                    <br>
-
-                    <textarea name = 'message' class = 'form-control top' placeholder= 'Type your message here....' row = '4' required>
-
-                    </textarea>
-                    <input type = 'submit' class = 'form-control submit' value = 'SEND MESSAGE'>
-                    <a href = "index.html">GO BACK TO PORTFOLIO</a>
-                </form>
+                <div class = "contact-area">
+                    <div class = "contact-area-img">
+                </div>
             </div>
         </section>
-    </section>
-    <footer>
-        <div class = "footer-section">
-            <div class = footer-sections>
-                <nav>
-                    <a href="https://github.com/shanreed"  target = 'blank'  class="fa fa-github"></a>
-                    <a href="https://twitter.com/laney5net"  target = 'blank' class="fa fa-twitter"></a>
-                    <a href="https://www.linkedin.com/in/shannonreedtechset5/"  target = 'blank'  class="fa fa-linkedin"></a>
-                </nav>
-                <div class = 'footer-image'>
-                    <img src = "./img/footerimg.png" />
+
+
+
+        <footer>
+            <div class = "footer-section">
+                <div class = footer-section1>
+                    <nav>
+                        <a href="https://github.com/shanreed"  target = 'blank'  class="fa fa-github"></a>
+                        <a href="https://twitter.com/laney5net"  target = 'blank' class="fa fa-twitter"></a>
+                        <a href="https://www.linkedin.com/in/shannonreedtechset5/"  target = 'blank'  class="fa fa-linkedin"></a>
+                    </nav>
+                    
+                </div> 
+                <div class = footer-section2>
+                    <div>
+                    <ul class = "footer-info">
+                        <li>SHANNON REED</li>
+                        <li>San Diego, California</li>
+                        <li>shannontlreed@gmail.com</li>
+                    </ul>
                 </div>
-            </div> 
-            <div class = footer-sections>
-                <ul class = "footer-info">
-                    <li>SHANNON REED</li>
-                    <li>San Diego, California</li>
-                    <li>shannontlreed@gmail.com</li>
-                </ul>
-                
+                    <div class = 'footer-image'>
+                        <img src = "./img/footerimg.png" />
+                    </div>
+                    
+                </div>      
+            </div>  
+            
+            <div class = "copyright">
+                <h3>Copyright Shannon Reed 2020</h3>
             </div>      
-        </div>  
-        
-        <div class = "copyright">
-            <h3>Copyright Shannon Reed 2020</h3>
-        </div>      
-    </footer>
+        </footer>
 </div>
 </body>
 </html>

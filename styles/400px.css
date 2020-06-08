@@ -37,6 +37,10 @@
     }
     
 
+    footer {
+        margin-top: 15rem;
+    }
+
 }
 
 @media(min-width: 444px) {
