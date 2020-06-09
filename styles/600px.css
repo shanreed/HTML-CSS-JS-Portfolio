@@ -44,5 +44,16 @@
         width: 55%;
     }
 
-}
+    .project-card{
+        display: flex;
+        flex-direction: row;
+    }
 
+    .flip {
+        flex-direction: row-reverse;
+    }
+
+    /* figure {
+        padding: .8rem 0 .8rem .8rem;
+    } */
+}

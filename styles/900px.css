@@ -16,6 +16,25 @@
         width: 40%;
     }
 
+     .projects-section {
+         max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        margin: 0 auto;
+        width: 45%;
+
+    }
+
+    /* figure {
+        
+        border: 2px solid red;
+    } */
+
+     
+
 
 }
 

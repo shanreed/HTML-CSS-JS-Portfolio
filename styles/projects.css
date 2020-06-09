@@ -1,0 +1,53 @@
+.projects-section {
+    margin: 5rem;
+}
+
+.project-card {
+    /* display: flex;
+    flex-direction: column; */
+    margin-bottom: 2rem;
+}
+
+
+
+figure {
+    background: rgb(18, 5, 48);
+    /* display: inline-block; */
+    padding: .8rem .8rem 3rem;
+    /* margin: 55px 75px 30px;
+     */
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px #6031CA;
+    -moz-box-shadow: 0 4px 6px #6031CA;
+    box-shadow: 0 4px 6px #6031CA;
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+
+  figcaption {
+    color: #FFFFFF;
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+  }
+  
+  /* 
+ 
+  figure:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  }
+ */
