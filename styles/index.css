@@ -37,6 +37,13 @@
     font-weight: bolder;
 }
 
+.active {
+    margin-top: -.5rem;
+    padding: .5rem;
+    border: .1rem solid #6031CA;
+    color: #6031CA;
+}
+
 .content {
     margin: 0 auto;
     padding-top: 3rem;
