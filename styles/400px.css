@@ -1,6 +1,6 @@
 @media(min-width: 400px) {
     .contact-header nav {
-    font-size: 1.8rem;
+        font-size: 1.8rem;
     }
 
     .logo {
@@ -9,7 +9,6 @@
 
     .top-header nav {
         font-size: 1.2rem;
-        
     }
 
     .name-heading {
@@ -36,7 +35,6 @@
         margin-top: 6rem;
     }
     
-
     footer {
         margin-top: 15rem;
     }
@@ -52,7 +50,6 @@
         width: 80%;
     }
     
-
     .think {
         margin-right: 27rem;
     }

@@ -2,23 +2,22 @@
     .button-container {
         margin-bottom: 5rem;
     }
+
     .form {
         width: 70%;
     }
-
 }
 
 @media(min-width: 550px) {
     .think {
         margin-right: 29rem;
     }
+
     .design {
         margin-right: 25rem;
     }
+
     .create {
         margin-right: 21rem;
     }
-
-  
-
 }

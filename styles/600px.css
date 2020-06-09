@@ -2,6 +2,7 @@
     .hero-area-img {
         width: 70%;
     }
+    
     .contact-form-title2 {
         text-align: center;
     }
@@ -18,7 +19,7 @@
     .contact-details {
         display:inline;
         text-align: center;
-        border: 1px solid #6031CA;
+        border: .1rem solid #6031CA;
         padding: 2rem 3rem 0 2rem;
     }
 
@@ -52,8 +53,4 @@
     .flip {
         flex-direction: row-reverse;
     }
-
-    /* figure {
-        padding: .8rem 0 .8rem .8rem;
-    } */
 }
