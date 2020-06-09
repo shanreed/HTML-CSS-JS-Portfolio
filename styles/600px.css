@@ -2,9 +2,47 @@
     .hero-area-img {
         width: 70%;
     }
-    /* footer {
-        margin-top: 13rem;
-    } */
+    .contact-form-title2 {
+        text-align: center;
+    }
+
+    .contact-info {
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center; 
+        font-size: 1.5rem;
+    }
+
+    .contact-details {
+        display:inline;
+        text-align: center;
+        border: 1px solid #6031CA;
+        padding: 2rem 3rem 0 2rem;
+    }
+
+    .detail {
+        margin-bottom: 8rem;
+    }
+
+    .detail-heading {
+        font-size: 2rem;
+    }
+
+    .detail-email {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .detail-social .fa {
+        margin: 1.8rem;
+    }
+
+    .form {
+        width: 55%;
+    }
 
 }
 

@@ -1,4 +1,7 @@
 @media(min-width: 900px) {
+    .hero-area-img {
+        width: 70%;
+    }
     .name-heading {
         
         font-size: 5.5vw;
@@ -8,6 +11,11 @@
         margin-top: 18rem;
         font-size: 3vw;
     }
+
+    .form {
+        width: 40%;
+    }
+
 
 }
 

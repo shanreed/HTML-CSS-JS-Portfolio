@@ -1,6 +1,12 @@
 @media(min-width: 1920px) {
-    /* .container {
+    .container {
+        
     }
+
+    .form {
+        width: 30%;
+    }
+    /* 
 
     header {
         margin-bottom: 60px;

@@ -9,5 +9,10 @@
     footer {
         margin-top: 35rem;
     }
+
+    .form {
+        width: 50%;
+    }
+
 }
 

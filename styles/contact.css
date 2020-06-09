@@ -2,7 +2,8 @@
     margin: 0 auto;
     width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 10rem;
 }
 
 
@@ -15,61 +16,102 @@
 }
 
 .contact-info {
-    width: 100%;
+    width: 90%;
     height: auto;
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-    font-size: 2rem;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 1.5rem;
 }
 
-.contact-title {
+.contact-form-title {
+    font-size: 2.5rem;
+}
+
+
+.contact-form-title2 {
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
     width: 100%;
-    border: 2px solid red;
+}
+
+.contact-form-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;;
 }
 
 .contact-form {
-    width: 100%;
-    border: 2px solid yellow;
+    padding: 2rem 2rem;
+    max-width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 input {
-    background-color: ;
-}
-
-
-/* .contact {
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    background-color: #6031CA;
+    max-width: 100%;
+    background-color: transparent;
     margin-bottom: 3rem;
+    color: #FFFFFF;
+    padding: .5rem .5rem .5rem .5rem;
 }
 
-.contact-title {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.input,
+.textarea {
+  border: 1px solid #6031CA;
+  /* padding: 1rem 0; */
+}
+
+.textbox {
+    border: 2px solid #6031CA;
+}
+
+/* .input {
     
-    margin-bottom: 3rem;
-}
-
-#contact-form {
-    margin: 0 auto;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.button-container a {
-    font-size: 1rem;
-    padding: .5rem 1.5rem;
 } */
+
+.textarea {
+    /* padding-left: .5rem; */
+}
+
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 30%;
+}
+
+
+
+.textarea {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    resize: both;
+    min-height: 40px;
+    line-height: 20px;
+  }
+
+  
+  .textarea[contenteditable]:empty::before {
+    content: "type your message here";
+    color: #FFFFFF;
+    opacity: 30%;
+  }
+
+.contact-details {
+    display:none;
+}
+
+

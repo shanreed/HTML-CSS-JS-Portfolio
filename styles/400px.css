@@ -41,12 +41,17 @@
         margin-top: 15rem;
     }
 
+    .form {
+        width: 80%;
+    }
+
 }
 
 @media(min-width: 444px) {
     .hero-area-img {
         width: 80%;
     }
+    
 
     .think {
         margin-right: 27rem;

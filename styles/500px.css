@@ -2,6 +2,10 @@
     .button-container {
         margin-bottom: 5rem;
     }
+    .form {
+        width: 70%;
+    }
+
 }
 
 @media(min-width: 550px) {
