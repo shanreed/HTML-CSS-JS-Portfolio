@@ -42,3 +42,27 @@ figure {
     -moz-box-shadow: 0 1rem 2rem rgba(0, 0, 0, .7);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .7);
   }
+
+  .project-card {
+    overflow: hidden;
+  }
+
+  .projects-card img {
+    /* width: 500px;
+    height: 100px; */
+  
+  }
+
+  .img {
+     width: 500px;
+     height: 500px;
+     /* background-position: none;
+     background-repeat: no-repeat;
+     background-size: cover; */
+  }
+
+  .designsbykeya {
+    background-position: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }

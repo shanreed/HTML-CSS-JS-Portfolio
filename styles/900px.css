@@ -1,16 +1,14 @@
 @media(min-width: 900px) {
     .hero-area-img {
-        width: 70%;
+        width: 60%;
     }
-    .name-heading {
-        
-        font-size: 5.5vw;
-    }
+  
 
     .p-headings {
         margin-top: 18rem;
         font-size: 3vw;
     }
+    
 
     .form {
         width: 40%;
@@ -30,9 +28,9 @@
 }
 
 @media(min-width: 1000px) {
-    .name-heading {
+    /* .name-heading {
         font-size: 5.5vw;
-    }
+    } */
 
     .p-headings {
         margin-top: 25rem;
