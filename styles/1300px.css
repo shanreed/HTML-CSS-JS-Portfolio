@@ -1,20 +1,41 @@
 @media(min-width: 1377px) {
-    .hero-area-img {
+    /* .hero-area-img {
         margin: 0 auto;
         width: 45%;
-    }
+    } */
 
-    .top-header nav {
+    /* .top-header nav {
         font-size: 2.5rem; 
-    }
+    } */
+
     
-    .name-heading {
+
+    .home-info {
+        margin-top: 13rem;
+       width: 100%;
+       display: flex;
+   }
+    .social-nav {
+        font-size: 1.5rem;
+    }
+    /* .name-heading {
         margin-top: 12rem;
         font-size: 5.5vw;
+    } */
+
+    .content {
+        max-width: 90%;
+    }
+
+    .header {
+        width: 80%;
     }
     
+ 
+    
     .p-headings {
-            margin-top: 1rem;
+        width: 100%;
+        margin-top: 1rem;
     }
 
     .aboutme-text {
@@ -24,4 +45,34 @@
     .form {
         width: 30%;
     }
+    .project  {
+        width:20%;
+    }
+
+
+
+
+.home-button-container {
+    width: 70%;
+    margin-right: -10rem;
+
+}
+.home-button-container a {
+    font-size: 1.5rem;
+    padding: 2rem 6rem;
+}
+
+.think {
+    margin-right: -4rem;
+}
+
+.design {
+    margin-right: -10rem;
+}
+
+.create {
+    margin-right: -16rem;
+}
+    
+
 }

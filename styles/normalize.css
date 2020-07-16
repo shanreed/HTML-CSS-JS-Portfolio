@@ -63,13 +63,19 @@ img {
 html {
     font-size: 62.5%;
     color: #FFFFFF;
-    background-color: #000000;
+    
+}
+
+.container {
+	background-color: #000000;
 }
 
 .hero-area-img {
+	/* border: 2px solid red; */
     content: url("../img/trenyph2.png");
     width: 100%;
     margin: 0 auto;
-    height: auto;
+	height: auto;
+
     }
 

@@ -7,9 +7,7 @@
         font-size: 2rem;
     }
 
-    .top-header nav {
-        font-size: 1.2rem;
-    }
+  
 
     .name-heading {
         margin-bottom: 18rem;
@@ -31,8 +29,8 @@
         margin-right: 20rem;
     }
     
-    .button-container {
-        margin-top: 6rem;
+    .home-button-container {
+        /* margin-top: 6rem; */
     }
     
     footer {

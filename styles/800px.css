@@ -7,6 +7,13 @@
         margin-bottom: 13.5vw;
     }
 
+    .menu-nav {
+        font-size: 1.8rem;
+    }
+
+    .social-nav{
+        font-size: 1rem;
+    }
     footer {
         margin-top: 35rem;
     }
@@ -14,6 +21,15 @@
     .form {
         width: 50%;
     }
+    
+    .project  {
+        width:30%;
+    }
+    .home-button-container a {
+        font-size: 3rem;
+        /* padding: 1.4rem 5.2rem; */
+
 
 }
 
+}

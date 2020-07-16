@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shannon Reed Portfolio - HOME</title>
+    <script src="https://kit.fontawesome.com/20f9ced931.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,22 +22,27 @@
 </head>
 <body>
     <div class = "container">
-        <div class = 'contact-header'>
+        <!-- <div class = 'contact-header'>
             <nav>
                 <a href = "">shannontlreed@gmail.com</a>
                 <a href="https://github.com/shanreed"  target = 'blank'  class="fa fa-github"></a>
                 <a href="https://twitter.com/laney5net"  target = 'blank' class="fa fa-twitter"></a>
                 <a href="https://www.linkedin.com/in/shannonreedtechset5/"  target = 'blank'  class="fa fa-linkedin"></a>
-            </nav>
-        </div>
+            </nav> -->
+        
 
         <header class = 'top-header'>
-            <div  class = 'logo'>
-                <a>SR</a>
-            </div>
-
-            <nav>
+            <nav class = 'social-nav'>
+                <a href = "">shannontlreed@gmail.com</a>
+                <div class = 'social'>
+                <a href="https://github.com/shanreed"  target = 'blank'  class="fa fa-github"></a>
+                <a href="https://twitter.com/laney5net"  target = 'blank' class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/shannonreedtechset5/"  target = 'blank'  class="fa fa-linkedin"></a>
+                </div>
+            </nav>
+            <nav class = 'menu-nav'>
                 <a class = "active" href = "index.html">HOME</a>
+                <a href = "skills.html">SKILLS</a>
                 <a href = "about.html">ABOUT</a>
                 <a href = "contact.html">CONTACT</a>
                 <a href = "projects.html">PROJECTS</a>
@@ -44,21 +50,54 @@
         </header>
 
         <section class = "content">
+            <sidebar class = 'sidebar'>
+                <h1>Skills & Tech Stack</h1>
+                <h1>Skills & Tech Stack</h1>
+                    <!-- <ul>
+                        <li><h4>FRONTEND</h4>
+                            HTML <i class="fa fa-html5"></i>
+                            CSS <i class="fa fa-css3"></i>
+                            JAVASCRIPT <i class="fab fa-js-square"></i>
+                            REACT <i class="fab fa-react"></i>
+                            SASS <i class="fab fa-sass"></i>
+                            LESS 
+                            AXIOS 
+                            B
+                            REDUX </li>
+                        <li>BACKEND
+                            PHP <i class="fab fa-php"></i>
+                                NODEJS <i class="fab fa-node"></i>
+                                Express <i class="fab fa-js-square"></i>
+                                Knex <i class="fab fa-react"></i>
+                                SQL <i class="fab fa-sass"></i>
+                                Git <i class="fab fa-php"></i>
+                                Jest <i class="fab fa-node"></i>
+                                Super Test <i class="fab fa-js-square"></i>
+                                Heroku <i class="fab fa-react"></i>
+                                Netlify <i class="fab fa-sass"></i>
+                                LESS <i class="fab fa-less"></i>
+                    </ul> -->
+            </sidebar>
             <div class = 'header'>
 
                 <div class = 'name-heading'>
                     <h1>Shannon Reed</h1>
                 </div>
-
-                <div class = 'p-headings'>
-                    <p class = 'think'>THINK</p>
-                    <p class = 'design'>DESIGN</p>
-                    <p class = 'create'>CREATE</p>
-                </div>
-
-                <div class="button-container">
-                    <a href="projects.html" class="btn">Projects</a>
-                    <a href="contact.css" class="btn">Contact Me</a>
+                <div class = 'home-info'>
+                    <div class = 'p-headings'>
+                        <p class = 'think'>THINK</p>
+                        <p class = 'design'>DESIGN</p>
+                        <p class = 'create'>CREATE</p>
+                    </div>
+                
+                    <div class="button-container home-button-container">
+                        <a href="projects.html" class="btn">Projects</a>
+                        <a href="contact.css" class="btn">Contact</a>
+                    </div>  
+                    <div class=" home-button-container2 button-container ">
+                        <a href="projects.html" class="btn">Projects</a>
+                        <a href="contact.css" class="btn">Contact</a>
+                    </div> 
                 </div>
 
             </div>

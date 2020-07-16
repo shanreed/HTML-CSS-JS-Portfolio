@@ -1,3 +1,10 @@
+@media(min-width: 1500px) {
+    .aboutme-card {
+        width: 25%;
+    }
+}
+
+
 @media(min-width: 1920px) {
     .container {
         

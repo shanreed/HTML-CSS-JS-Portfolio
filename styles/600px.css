@@ -44,13 +44,22 @@
     .form {
         width: 55%;
     }
+    .projects-container {
+        width: 95%;
+      
+      }
 
-    .project-card{
-        display: flex;
-        flex-direction: row;
+    .projects-section {
+        width: 100%;
     }
-
-    .flip {
-        flex-direction: row-reverse;
+    .project  {
+        width:40%;
+        margin: 1rem;
+        /* margin: 2rem;
+         */
+    }
+    
+    .project-card {
+        /* margin-bottom: 0; */
     }
 }
