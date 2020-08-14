@@ -21,6 +21,7 @@
 
 .project-card {
     margin-bottom: 2rem;
+    border-radius: 10px;
 }
 
 figure {

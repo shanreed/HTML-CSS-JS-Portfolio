@@ -37,6 +37,7 @@
     margin-top: -.5rem;
     padding: .5rem;
     border: .1rem solid black;
+    border-radius: 10px;
     color: black;
 }
 
@@ -68,6 +69,7 @@
       background: #6031CA;
     text-decoration: none;
     border: .1rem solid #6031CA;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
   }
