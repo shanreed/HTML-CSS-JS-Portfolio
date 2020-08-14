@@ -53,7 +53,7 @@ a {
 }
 
 a:hover{
-    color: #6031CA;
+    color: #000000;
 }
 
 img { 
@@ -64,6 +64,7 @@ html {
     font-size: 62.5%;
 	color: #FFFFFF;
 	background-color: #000000;
+	height: 100%;
     
 }
 
