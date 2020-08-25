@@ -1,0 +1,184 @@
+.aboutcontact-header {
+    margin-top: 2rem;
+    padding-top: 1rem;
+	border-top: .1rem solid #6031CA;
+}
+
+.aboutcontact-header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.aboutcontact-header nav a {
+	color: #6031CA;
+	font-weight: bolder;
+}
+
+.aboutme-content {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50rem;
+    
+}
+
+.about-area-img {
+    content: url("../img/aboutmeimg.png");
+    opacity: 30%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.aboutme-section {
+    margin-top: 8rem;
+    width: 90%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+figure {
+    width: 85%;
+    padding: 5rem .8rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 6rem #6031CA;
+    -moz-box-shadow: 0 0 6rem #6031CA;
+    box-shadow: 0 0 6rem #6031CA;
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+  }
+
+
+figcaption {
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 1.5rem;
+
+  }
+
+.first-about {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.second-about {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.aboutme-image img{
+    border-radius: 50%;
+    width: 70%;
+    
+}
+
+.aboutme-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-button-container {
+    
+}
+
+footer {
+    margin-top: 5rem;
+}
+
+
+@media(min-width: 500px) {
+    .aboutme-image img{
+        border-radius: 50%;
+        width: 55%;
+        
+    }
+
+    figcaption {
+        margin: 0 auto;
+        width: 90%;
+    
+      }
+}
+
+@media(min-width: 600px) {
+    .aboutme-content {
+        margin-top: 4rem;
+    }
+}
+
+@media(min-width: 700px) {
+    .aboutme-image img{
+        border-radius: 50%;
+        width: 45%;
+    }
+
+    figcaption {
+        width: 80%;
+    
+      }
+}
+
+@media(min-width: 800px) {
+    .aboutme-image img{
+        border-radius: 50%;
+        width: 35%;
+        
+    }
+
+    figcaption {
+        width: 70%;
+    
+      }
+}
+
+
+@media(min-width: 900px) {
+
+    figcaption {
+        width: 50%;
+    
+      }
+
+      figure {
+        width: 75%;
+      }
+}
+
+@media(min-width: 1000px) {
+      figure {
+        width: 65%;
+      }
+}
+
+@media(min-width: 1200px) {
+    figure {
+      width: 55%;
+    }
+}
+
+@media(min-width: 1400px) {
+    figure {
+      width: 45%;
+    }
+}
+
+@media(min-width: 1600px) {
+    figure {
+      width: 40%;
+    }
+}
