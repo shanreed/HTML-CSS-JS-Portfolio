@@ -3,6 +3,12 @@
   width: 90%;
 
 }
+
+iframe{
+  overflow:hidden;
+}
+
+
 .projects-container h1 {
   font-size: 5rem;
   text-align: center;
@@ -103,6 +109,8 @@ figure {
         width:20%;
     }
 }
+
+
 
 
 
