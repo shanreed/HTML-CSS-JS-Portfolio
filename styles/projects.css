@@ -1,3 +1,7 @@
+.container {
+  width: 100% !important;
+}
+
 .projects-container {
   margin: 0 auto;
   width: 90%;
