@@ -1,4 +1,4 @@
-.container {
+.projects-top-container {
   width: 100% !important;
 }
 
@@ -8,9 +8,6 @@
 
 }
 
-iframe{
-  overflow:hidden;
-}
 
 
 .projects-container h1 {
@@ -34,7 +31,7 @@ iframe{
     border-radius: 10px;
 }
 
-figure {
+.project-figure {
     background: rgb(18, 5, 48);
     padding: .8rem .8rem 3rem;
     text-align: center;
@@ -54,7 +51,7 @@ figure {
     margin-inline-end: 0; */
   }
 
-  figcaption {
+  .project-figcaption {
     color: #FFFFFF;
     font-size: 1rem;
     position: relative;
@@ -62,7 +59,7 @@ figure {
   }
   
 
-  figure:hover {
+  .project-figure:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     transform: scale(1.1);
