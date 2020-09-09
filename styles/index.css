@@ -253,6 +253,14 @@ footer {
     color: #f4f4f4;
     text-transform: uppercase;
   } 
+
+  .button-container button {
+    font-size: 1rem;
+    padding: .8rem 3.5rem;
+    color: #f4f4f4;
+    text-transform: uppercase;
+	
+}
   
 .btn {
     background: #6031CA;
@@ -976,6 +984,10 @@ footer {
 form {
     display: flex;
     flex-direction: column;
+    width: 90%;
+}
+label {
+    margin-bottom: .8rem;
 }
 
 input {
@@ -993,8 +1005,10 @@ input {
     border: .1rem solid #6031CA;
 }
 
-.textbox {
+.textarea {
+    margin-bottom: 3rem;
     border: .2rem solid #6031CA;
+    background: transparent;
 }
 
 ::placeholder {
