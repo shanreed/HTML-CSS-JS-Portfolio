@@ -993,12 +993,12 @@ input {
     max-width: 100%;
     background-color: transparent;
     margin-bottom: 3rem;
-    color: #FFFFFF;
     padding: .5rem .5rem .5rem .5rem;
 }
 
 .input,
 .textarea {
+    color: #FFFFFF;
     padding-left: 10px;
     border-radius: 10px;
     border: .1rem solid #6031CA;
