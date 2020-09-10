@@ -1,4 +1,5 @@
 # HTML-CSS-JS-Portfolio
+* **fix thank you page for contact form**
 * HTML
 * CSS
 * JavaScript
