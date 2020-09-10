@@ -1147,9 +1147,10 @@ input {
   
   
   .projects-container h1 {
-    font-size: 5rem;
+    font-size: 5vw;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 7rem;
+    margin-top: 5rem;
     
   }
   
