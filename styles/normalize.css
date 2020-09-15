@@ -72,8 +72,44 @@ body {
 	height: 100%;
 }
 
-.button-container button {
-	
+.content-hero-area {
+	margin-left: 20rem;
+	width: 80%;
+	/* border: 2px solid #6031CA; */
+}
+
+.this {
+	background: #6031CA;
+	color: #000000;
+	font-size: 5rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+.this-top {
+	margin-bottom:3rem;
+}
+
+.this-bottom {
+	margin-top:10rem;
+}
+
+.hero-area-img {
+    content: url("../img/trenyph2.png");
+    width: 30%;
+	margin-left: 80rem;
+	margin-top: 5rem;
+}
+
+
+.name-heading {
+    /* text-align: center; */
+    margin: 0 0 15rem 20rem;
+    font-family: 'Pacifico', cursive;
+    font-size: 7vw;
+    /* margin-bottom: 16rem;
+    margin-left: 1rem;
+    padding-top: 3rem; */
 }
 
 
