@@ -24,3 +24,6 @@ https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html
 ###React
 [React Match Game](https://react-match-game-ecru.vercel.app/)
 [React Match Game GitHub](https://github.com/SR-Portfolio-Projects/React-Memory-Game)
+
+
+<a href="https://iconscout.com/icons/firebase" target="_blank">Firebase Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank">Icon Mafia</a>
